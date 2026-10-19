@@ -1,25 +1,25 @@
 class Glimps < Formula
   desc "Zero-config smart terminal output formatter — auto-detects and reformats JSON, HTML, and logs live in your shell."
   homepage "https://github.com/Krishnarajan7/Glimps"
-  version "0.1.0"
+  version "0.2.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/Krishnarajan7/Glimps/releases/download/v0.1.0/glimps-aarch64-apple-darwin.tar.xz"
-      sha256 "e8a0439220c812d9939686f978d398d5664aa4a8f0d9c633169b4fa58135c458"
+      url "https://github.com/Krishnarajan7/Glimps/releases/download/v0.2.0/glimps-aarch64-apple-darwin.tar.xz"
+      sha256 "ec1cc5c431a8c4e1a0e3a59d8b4b69776f8a7cf0ee97a87b9bc83ae42003bc7e"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/Krishnarajan7/Glimps/releases/download/v0.1.0/glimps-x86_64-apple-darwin.tar.xz"
-      sha256 "331dd8f2a22487d8fa8aa9c8d06bf53f1f802f90624437e01db890587c0bbd46"
+      url "https://github.com/Krishnarajan7/Glimps/releases/download/v0.2.0/glimps-x86_64-apple-darwin.tar.xz"
+      sha256 "8313da0ba10f53bb077ea230ec8a4922ed8ca2cc62f283cedffca3b417b02e32"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/Krishnarajan7/Glimps/releases/download/v0.1.0/glimps-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "1836d0de47260b8fb97d6ec53bc6958b246cb0c17efbc2e595de7b1010157510"
+      url "https://github.com/Krishnarajan7/Glimps/releases/download/v0.2.0/glimps-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "6a6dfc48939829e1b4ca2ea14f6ba4344c9123b416a8604e6053c500817efc85"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/Krishnarajan7/Glimps/releases/download/v0.1.0/glimps-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "c750db75be00e2a09fc042e39671529010f90ffc66663c8bf17d3ea2174bd519"
+      url "https://github.com/Krishnarajan7/Glimps/releases/download/v0.2.0/glimps-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "aaef435827038a69674258d0b5105f1c6ab47ee7feec1e649696c58760af2085"
     end
   end
   license "MIT"
